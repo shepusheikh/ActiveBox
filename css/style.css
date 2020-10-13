@@ -1,0 +1,289 @@
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Cardo', serif; */
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  color: #6c7279;
+}
+
+/* Navber start */
+header{
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.menubar li a{
+  color: #fff !important;
+  opacity: 0.8;
+  margin-left: 40px;
+  font-weight: 700;
+
+}
+.menubar li .active,
+.menubar li a:hover{
+  color: #fff !important;
+  opacity: 1;
+}
+.nav-btn:focus{
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #fff;
+}
+.borderBottom{
+  border-bottom: 1px solid #fff;
+  padding: 40px 0;
+}
+/* Navber end */
+
+
+/* bannertext start */
+.bannar{
+  padding: 120px 0;
+}
+.bannar h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+
+}
+/* Banner start */
+.bannar p{
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  word-spacing: 4px;
+  margin: 35px 0 70px 0;
+  font-size: 16px;
+
+}
+.bannar .BUTTON{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0;
+
+
+}
+.bannar .BUTTON:focus{
+  box-shadow: none !important;
+
+
+}
+/* Banner end */
+/* features start */
+.Features{
+  padding: 100px 0;
+}
+.feature-content{
+  padding: 20px 0;
+}
+.feature-content i{
+  font-size: 50px;
+  color: #e84545 ;
+}
+.feature-content i:hover{
+  color:#e52e2e ;
+}
+.feature-content h5{
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.feature-content p{
+  font-size: 16px;
+}
+/* features end */
+/* projects start */
+.projects-image{
+  padding-left: 0;
+  padding-right: 0;
+}
+.projects-image img{
+  height: 100%;
+  border: 1px solid #fff;
+}
+
+  
+/* projects end */
+
+
+
+
+/* Team start */
+.Team{
+  padding: 100px 0;
+}
+.personal-content h4 {
+  font-size: 25px;
+  padding: 20px 0 10px 0;
+  color: #2d3033;
+}
+.personal-content h5 {
+  color: red;
+  margin: 0;
+  font-size: 18px;
+  margin: 0;
+}
+.personal-content p {
+  margin: 0;
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+.social-menu  a  {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #e8ecee;
+  border-radius: 2px;
+  color: #c6cacc;
+  display: block;
+  font-size: 18px;
+  line-height: 40px;
+  margin-right: 0px;
+  text-align: center;
+  transition: .3s ease;
+
+}
+.social-menu  a:hover {
+  color: #fff;
+  background-color: #e52e2e;
+}
+
+
+/* Team end */
+/* testimonial start  */
+.testimonial{
+  padding: 0 0 100px 0;
+}
+.testimonial-image img{
+  max-height: 300px;
+}
+.testimonial-text{
+  max-height: 300px;
+  background-color:#53354a;
+  padding: 50px 25px 0 50px;
+  box-sizing: border-box;
+}
+.testimonial-text h2{
+  font-family: 'Cardo', serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #fff;
+  word-spacing: 2px;
+}
+.testimonial-text p{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700 !important;
+  color: #fff;
+  word-spacing: 2px;
+  padding: 52px  0;
+}
+.carousel-indicators {
+  bottom: 5px;
+  left: 50%;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+/* testimonial end  */
+/* download start */
+.download {
+  padding: 0 0 100px 0;
+}
+.download h3{
+  color: #2d3033;
+  font-weight: 300;
+  font-size: 30px;
+}
+.download p{
+  color: #2d3033;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 20px 0 40px 0;
+}
+.download .down-btn{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0;
+}
+.download .down-btn:focus{
+  box-shadow: none !important;
+
+
+}
+
+/* download end */
+
+/* Footer start */
+/* Footer Top */
+.Footer-top{
+  background-color: #3a3e64;
+  padding: 70px 0 70px 0;
+}
+
+.Footer-top h5{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 12px;
+
+}
+.bold-brder a{
+  border: 2px solid #fff;
+}
+.bold-brder a:hover{
+  background-color: #e52e2e;
+  border: 2px solid #e52e2e;
+
+}
+.Footer-top p{
+  color: #fff;
+  font-size: 16px;
+  opacity: .7;
+
+}
+
+
+
+
+
+/* Footer bottom */
+.Footer-Bottom{
+  background-color: #313454;
+  padding: 30px 0;
+}
+.Footer-Bottom p{
+  font-size: 14px;
+}
+.heart-color{
+  color: #e52e2e;
+}
+.shepu-sheikh{
+  text-decoration: none;
+  color: #fff ;
+  font-size: 14px;
+}
+.shepu-sheikh:hover{
+  text-decoration: none;
+  color: #e52e2e ;
+}
+/* Footer end */
+
+
+
+
+
+
